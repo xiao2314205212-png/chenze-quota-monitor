@@ -1,6 +1,9 @@
 name: 陈泽网名额监控
 on:
   workflow_dispatch:
+nconcurrency:
+  group: monitor
+  cancel-in-progress: false
 permissions:
   contents: read
   actions: write
