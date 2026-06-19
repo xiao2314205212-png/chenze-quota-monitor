@@ -1,6 +1,5 @@
 name: 陈泽网名额监控
 on:
-  push:
   workflow_dispatch:
 permissions:
   contents: read
