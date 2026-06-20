@@ -40,6 +40,12 @@
 3. 手动触发 Actions → `workflow_dispatch`
 
 
+## ## 关于 Supabase Key
+
+代码中的  为陈泽网前端公开的 publishable key，非敏感密钥。
+任何人打开陈泽网按 F12 均可获取，属 Supabase 设计上的公开字段。
+
+
 ## 技术栈
 
 Python · GitHub Actions · Supabase · 飞书 API
